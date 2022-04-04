@@ -6,9 +6,15 @@ Contributors of new AI modules should consider the requirements described here t
 
 AI modules must be packaged as containers based on the Open Container Initiative (OCI) standard (i.e., docker).
 For this, the module must specify a Dockerfile which supports building container images.
-The container must expose a standard HTTP(S) port (80 or 443) to enable the integration of the provided services.  
+The container should expose a standard HTTP(S) port (80 or 443) to enable the integration of the provided services. Ports like 8080 are also accetable.
+
+The open port must expose an API based on OpenAPI. A Swagger-UI is quite desirable.
 
 An example implementation of a continuous integration / continuous delivery (CI/CD) pipeline based on GitHub Actions is provided [here](./resources/publish-container.yaml). 
+
+### Example Container
+The example container provides an example for Node.js and for Python.
+* https://github.com/spaicer/example-container
 
 ## Publishing
 
