@@ -1,4 +1,4 @@
-# Contributing a new AI module
+# Contributing a New AI Module or SRS
 
 Contributors of new AI modules should consider the requirements described here to enable their on-boarding into the SPAICER platform. 
 
@@ -13,6 +13,7 @@ The open port must expose an API based on OpenAPI. A Swagger-UI is quite desirab
 An example implementation of a continuous integration / continuous delivery (CI/CD) pipeline based on GitHub Actions is provided [here](./resources/publish-container.yaml). 
 
 ### Example Container
+
 The example container provides an example for Node.js and for Python.
 * https://github.com/spaicer/example-container
 
@@ -44,4 +45,4 @@ AI modules should provide a self-description of the provided services based on t
 ### Gaia-X
 
 In oder to deliver a Gaia-X compliant platform and services, AI modules should additionally provide a Gaia-X self-description.
-(cf. the [Faia-X Architecture Document](https://www.gaia-x.eu/sites/default/files/2021-10/Gaia-X_Architecture_Document_2109.pdf)). 
+(cf. the [Gaia-X Architecture Document](https://www.gaia-x.eu/sites/default/files/2021-10/Gaia-X_Architecture_Document_2109.pdf)). 
